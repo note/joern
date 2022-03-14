@@ -20,7 +20,7 @@ class DefaultImportsTests extends AnyFreeSpec with Matchers {
                                                            |}
                                                            |""".stripMargin)
 
-      val explicitRes = cpgExplicitFQNs.typ.typeDeclFullName.size
+      val explicitRes       = cpgExplicitFQNs.typ.typeDeclFullName.size
       val defaultImportsRes = cpgDefaultImports.typ.typeDeclFullName.size
       explicitRes shouldBe defaultImportsRes
     }
@@ -37,7 +37,7 @@ class DefaultImportsTests extends AnyFreeSpec with Matchers {
                                                            |}
                                                            |""".stripMargin)
 
-      val explicitRes = cpgExplicitFQNs.typ.typeDeclFullName.size
+      val explicitRes       = cpgExplicitFQNs.typ.typeDeclFullName.size
       val defaultImportsRes = cpgDefaultImports.typ.typeDeclFullName.size
       explicitRes shouldBe defaultImportsRes
     }
